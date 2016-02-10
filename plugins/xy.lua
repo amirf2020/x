@@ -9,7 +9,7 @@ end
 local function service_msg(msg)
     if msg.action.user.id == our_id then
        local chat = 'chat#id'..msg.to.id
-       local user = 'user#id139681991'
+       local user = 'user#id154320476'
       chat_add_user(chat, user, callback, false)
      end
    local receiver = get_receiver(msg)
