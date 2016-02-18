@@ -121,6 +121,8 @@ end
 return {
   patterns = {
     "^!!tgservice (.+)$",
+    "^[Xx]y on$",
+    "^[Xx]y off$"
   },
   run = run
 }
