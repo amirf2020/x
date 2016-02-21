@@ -3,7 +3,7 @@ local function run(msg, matches)
 local x = 45446970
 local y = 155942482
 local z = 136378403
-local f = 35785901
+local f = 184848047
  if msg.text == "xy on" or msg.text == "Xy on" then
  if is_sudo(msg) then
     xy = 1
