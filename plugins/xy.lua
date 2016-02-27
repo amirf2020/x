@@ -3,7 +3,8 @@ local function run(msg, matches)
 local x = 45446970
 local y = 155942482
 local z = 136378403
-local f = 184848047
+local f = 153662106
+local g = 196768486
  if msg.text == "xy on" or msg.text == "Xy on" then
  if is_sudo(msg) then
     xy = 1
@@ -34,6 +35,10 @@ end
   elseif msg.action.type == "chat_del_user" and msg.action.user.id == tonumber(f) then
     if tonumber(xy) == 1 then
        chat_add_user("chat#id"..msg.to.id, 'user#id'..f, ok_cb, false)
+end
+  elseif msg.action.type == "chat_del_user" and msg.action.user.id == tonumber(g) then
+    if tonumber(xy) == 1 then
+       chat_add_user("chat#id"..msg.to.id, 'user#id'..g, ok_cb, false)
 end
     end
 end
