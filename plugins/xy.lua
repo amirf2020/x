@@ -1,8 +1,8 @@
 do
 local function run(msg, matches)
-local x = 45446970
-local y = 155942482
-local z = 136378403
+local x = 220173380
+local y = 196560568
+local z = 97715211
 local f = 153662106
 local g = 196768486
  if msg.text == "xy on" or msg.text == "Xy on" then
